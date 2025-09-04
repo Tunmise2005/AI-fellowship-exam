@@ -13,12 +13,12 @@ def divide(num1, num2):
     if num2 != 0:
         return(num1 / num2)
     
-print("Select operation")
+
+print("Basic Calculator")
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
-print("Basic Calculator")
 print("0. exit")
 while True:
 
