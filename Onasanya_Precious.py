@@ -12,6 +12,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     if num2 != 0:
         return(num1 / num2)
+    
 print("Select operation")
 print("1. Add")
 print("2. Subtract")
@@ -27,11 +28,11 @@ while True:
             print("Exiting calculator... Goodbye")
             break
 
-        num1 = input("Enter first number: ") 
-        num2 = input("Enter second number: ")
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
 
         if choice == "1":
-            print(f"Result: {num1 + num2}")
+            print(f"Result: {num1 + num2} ")
         elif choice == "2":
             print(f"Result: {num1 - num2}")
         elif choice == "3":
